@@ -1,0 +1,44 @@
+.inputTask {
+    border: 1px solid #D9D9D9;
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin-top: 10px;
+}
+
+.container-state-task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-task-ok {
+    display: flex;
+    align-items: center;
+}
+.task-ok {
+    border: 1px solid #D9D9D9; 
+    border-radius: 50%;
+    cursor: pointer;
+    margin-right: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 30px;
+}
+
+.imagen-ok {
+    width: 100%;
+    height: 80%;
+    padding-top: 5px;
+}
+
+.name-input-task {
+    display: inline-block;
+    font-size: 1.1rem;
+}
+
+.remove {
+    color: red;
+    cursor: pointer;
+}
